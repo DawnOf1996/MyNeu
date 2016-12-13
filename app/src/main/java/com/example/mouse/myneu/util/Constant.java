@@ -1,4 +1,4 @@
-package com.example.mouse.myneu.util;
+package com.example.mouse.myneu.Util;
 
 /**
  * Created by lyp on 2016/12/7.

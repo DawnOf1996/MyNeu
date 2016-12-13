@@ -10,8 +10,8 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageView;
 
-import com.example.mouse.myneu.util.Constant;
-import com.example.mouse.myneu.util.SPUtils;
+import com.example.mouse.myneu.Util.Constant;
+import com.example.mouse.myneu.Util.SPUtils;
 import com.lyp.networkhelper.activity.BaseActivity;
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.Callback;

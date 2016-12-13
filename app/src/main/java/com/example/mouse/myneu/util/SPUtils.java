@@ -1,4 +1,4 @@
-package com.example.mouse.myneu.util;
+package com.example.mouse.myneu.Util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
