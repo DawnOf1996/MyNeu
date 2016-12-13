@@ -3,13 +3,13 @@ package com.example.mouse.myneu;
 import com.lyp.networkhelper.activity.BaseActivity;
 
 
-public class MainActivity extends BaseActivity {
+public class LoginActivity extends BaseActivity {
 
 
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_main;
+        return R.layout.activity_login;
     }
 
     @Override
