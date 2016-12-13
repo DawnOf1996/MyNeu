@@ -57,6 +57,12 @@ public class LoginActivity extends BaseActivity {
 
     @Override
     protected void initEvents() {
+        refresh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                refreshImgCode();
+            }
+        });
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
