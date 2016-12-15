@@ -2,15 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mouse.myneu.View.JobFragment">
+    tools:context="com.example.mouse.myneu.View.TeamFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/job_course"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_job_layout">
-
-    </android.support.v7.widget.RecyclerView>
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
