@@ -1,7 +1,7 @@
 package com.example.mouse.myneu.bean;
 
 /**
- * Created by lyp on 2016/12/8.
+ * Created by mouse on 2016/12/14.
  */
 
 import java.io.Serializable;

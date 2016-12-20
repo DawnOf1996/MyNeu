@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF">
+    <TextView
+        android:id="@+id/position_stage_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="岗位名称"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#4869d6"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <ExpandableListView
+        android:id="@+id/position_stage_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ExpandableListView>
+
+</LinearLayout>

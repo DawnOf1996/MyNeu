@@ -16,7 +16,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import java.util.List;
 
 /**
- * Created by mouse on 2016/9/23.
+ * Created by mouse on 2016/12/14.
  */
 public class JobAdapter extends RecyclerView.Adapter<JobAdapter.ViewHolder> {
 

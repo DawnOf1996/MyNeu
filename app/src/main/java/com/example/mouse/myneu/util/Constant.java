@@ -1,7 +1,7 @@
 package com.example.mouse.myneu.Util;
 
 /**
- * Created by lyp on 2016/12/7.
+ * Created by mouse on 2016/12/7.
  */
 
 public class Constant {

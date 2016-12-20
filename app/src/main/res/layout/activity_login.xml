@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="20"
-        android:hint="手机号"
+        android:hint="账号"
         android:layout_marginTop="30dp"
         android:id="@+id/name"
         android:layout_gravity="center_horizontal"
@@ -29,6 +29,7 @@
         android:layout_marginTop="10dp"
         android:hint="密码"
         android:ems="20"
+        android:inputType="textPassword"
         android:layout_gravity="center_horizontal"
         android:id="@+id/password"/>
     <LinearLayout

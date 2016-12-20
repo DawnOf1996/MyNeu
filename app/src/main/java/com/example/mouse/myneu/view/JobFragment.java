@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.example.mouse.myneu.Adapter.JobAdapter;
+import com.example.mouse.myneu.JobDetailActivity;
 import com.example.mouse.myneu.R;
 import com.example.mouse.myneu.Util.Constant;
 import com.example.mouse.myneu.Util.SPUtils;
@@ -105,7 +106,7 @@ public class JobFragment extends BaseFragment {
                             mAdapter.setOnItemClickListener(new JobAdapter.OnItemClickListener() {
                                 @Override
                                 public void onItemClick(View view, int position) {
-                                    Intent intent = new Intent(getActivity(), JobAdapter.class);
+                                    Intent intent = new Intent(getActivity(), JobDetailActivity.class);
                                     intent.putExtra("bean_position", mData.get(position));
                                     startActivity(intent);
                                 }
@@ -127,5 +128,6 @@ public class JobFragment extends BaseFragment {
 
     @Override
     protected void initEvents(View view) {
+
     }
 }
